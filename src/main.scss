@@ -1,0 +1,17 @@
+$myVariable: red;
+$success: #2ecc71;
+$cool: #2980b9;
+
+h1{
+    color: $myVariable;
+}
+
+.btn{
+    padding: 20px;
+    border-radius: 10px;
+
+    &:hover{
+        background: $cool;
+    }
+}
+
